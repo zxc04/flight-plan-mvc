@@ -7,10 +7,10 @@ namespace FlightPlan.Application.Reports
         [Display(Name = "Total Flights")]
         public int TotalFlights { get; set; }
 
-        [Display(Name = "Total Distance (Km)")]
+        [Display(Name = "Total Distance")]
         public int TotalDistance { get; set; }
 
-        [Display(Name = "Total Fuel Consumption (L)")]
+        [Display(Name = "Total Fuel Consumption")]
         public int TotalFuelConsumption { get; set; }
     }
 }
